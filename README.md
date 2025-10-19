@@ -64,7 +64,7 @@ Agora, vamos configurar o código do app para apontar para a sua API.
 1.  **Clone o Repositório** (ou tenha os arquivos do projeto em seu computador).
     ```bash
     # Se estivesse no Git
-    git clone https://[URL_DO_SEU_REPOSITORIO].git
+    git clone https://github.com/JoaoVittorOliveira/AppPessoa.git
     cd nome-do-projeto
     ```
 2.  **Atualize a URL da API:**
@@ -88,12 +88,6 @@ Agora, vamos configurar o código do app para apontar para a sua API.
     Abra um terminal na pasta raiz do projeto e execute:
     ```bash
     flutter pub get
-    ```
-4.  **Habilite Permissão de Internet (Android):**
-    * Verifique se o arquivo `android/app/src/main/AndroidManifest.xml` contém a permissão de internet.
-    * Adicione esta linha se ela não existir (geralmente acima da tag `<application>`):
-    ```xml
-    <uses-permission android:name="android.permission.INTERNET" />
     ```
 
 ### 3. Executando o Aplicativo
